@@ -2,6 +2,7 @@ from get_color_code_pair import (
     get_color_from_pair_number,
     get_pair_number
 )
+from reference_manual import print_user_reference_manual
 
 
 def get_color_pair(pair_number):
@@ -17,6 +18,7 @@ def get_color_code(major_color, minor_color):
 
 
 if __name__ == '__main__':
+    print_user_reference_manual()
     get_color_pair(22)
     get_color_code(
         major_color='Red',
